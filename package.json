@@ -186,7 +186,6 @@
 		"gulp-check": "0.1.2",
 		"gulp-sftp": "0.1.5",
 		"husky": "2.3.0",
-		"i": "^0.3.6",
 		"jest": "24.7.1",
 		"jest-puppeteer": "4.1.1",
 		"lodash": "4.17.11",
