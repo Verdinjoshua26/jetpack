@@ -84,6 +84,10 @@ module.exports = {
 			..._.without( webpackConfig.module.rules, transpileConfig ),
 		],
 	},
+	resolve: {
+		...webpackConfig.resolve,
+		modules: [ ...webpackConfig.resolve.modules, path.resolve( __dirname, '_inc/client' ) ],
+	},
 	plugins: [
 		...webpackConfig.plugins,
 		new CopyWebpackPlugin( [
