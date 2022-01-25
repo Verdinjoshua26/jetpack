@@ -122,7 +122,7 @@
 		"i18n-calypso": "3.0.0",
 		"jsdom": "14.0.0",
 		"jsdom-global": "3.0.2",
-		"jshint": "2.10.2",
+		"jshint": "2.13.4",
 		"jshint-stylish": "2.2.1",
 		"json-loader": "0.5.7",
 		"mapbox-gl": "0.53.1",
