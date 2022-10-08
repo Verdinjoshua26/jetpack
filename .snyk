@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@wordpress/element > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - gulp-jshint > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - jshint > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - node-sass > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/core > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > duplicate-package-checker-webpack-plugin > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - i18n-calypso > xgettext-js > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > node-sass > sass-graph > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > webpack-rtl-plugin > async > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > node-sass > gaze > globule > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/types > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
+    - '@automattic/calypso-build > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-10-08T23:44:51.678Z'
