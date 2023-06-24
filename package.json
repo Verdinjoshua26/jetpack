@@ -91,7 +91,7 @@
 		"clipboard": "2.0.4",
 		"component-uid": "0.0.2",
 		"cookie": "0.4.0",
-		"copy-webpack-plugin": "5.0.2",
+		"copy-webpack-plugin": "7.0.0",
 		"create-react-class": "15.6.3",
 		"cross-env": "5.2.0",
 		"debug": "3.2.6",
@@ -144,7 +144,7 @@
 		"static-site-generator-webpack-plugin": "3.4.2",
 		"swiper": "4.5.0",
 		"uglify-save-license": "0.4.1",
-		"webpack": "4.31.0",
+		"webpack": "5.1.1",
 		"webpack-cli": "3.3.2"
 	},
 	"optionalDependencies": {
